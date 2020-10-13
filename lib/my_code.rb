@@ -56,8 +56,8 @@ def reduce_to_all_true(source_array)
   while i < source_array.length
     if source_array[i] = false 
       all_values = false 
-      binding.pry
     end
+    binding.pry
     i += 1
   end
   return all_values
